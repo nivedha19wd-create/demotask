@@ -75,14 +75,14 @@ Price               : ₹${product.productPrice}
 Quantity            : ${product.quantityPurchased}
 Stock Available     : ${product.stockAvailable}
 BILL DETAILS
-Subtotal            : ₹${subtotal.toFixed(2)}
-Membership Discount : ₹${membershipDiscount.toFixed(2)}
-Coupon Discount     : ₹${couponDiscount.toFixed(2)}
-GST (18%)           : ₹${gstAmount.toFixed(2)}
-Delivery Charge     : ₹${deliveryCharge.toFixed(2)}
-Final bill amount       : ₹${finalBill.toFixed(2)}
+Subtotal            : ₹${subtotal}
+Membership Discount : ₹${membershipDiscount}
+Coupon Discount     : ₹${couponDiscount}
+GST (18%)           : ₹${gstAmount}
+Delivery Charge     : ₹${deliveryCharge}
+Final bill amount       : ₹${finalBill}
 Coupon Applied      : ${couponDiscount }
-Delivery Status     : ${deliveryCharge === 0 ? "FREE DELIVERY" : "₹100 Delivery Charge"}
+Delivery Status     : ${deliveryCharge}
 Order Status        : ${orderStatus}
               THANK YOU FOR SHOPPING!
 
